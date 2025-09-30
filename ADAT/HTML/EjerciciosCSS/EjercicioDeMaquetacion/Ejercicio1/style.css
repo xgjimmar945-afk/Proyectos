@@ -1,0 +1,43 @@
+
+h2{
+    border-bottom: 1px solid black; 
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0px;
+}
+
+.azul{
+    color: blue;
+}
+
+strong{
+    display: block;
+    color: black;
+}
+
+@media (width >= 600px){
+    .flex-container{
+        display: flex;
+    }
+    h2{
+        border-bottom: 0px;
+    }
+    .tablet strong{
+        display: inline;
+    }
+    .tablet {
+        margin-left: 30px;
+    }
+
+
+}
+
+@media (width >= 1200px) {
+    .tablet{
+        display: flex;
+        margin: 30px;
+    }
+}

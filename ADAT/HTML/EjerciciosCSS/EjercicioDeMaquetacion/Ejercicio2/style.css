@@ -1,0 +1,17 @@
+@media(width>=600){
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        'contenedor1 contenedor2 contenedor2 contenedor2'
+        'contenedor1 contenedor3 contenedor3 contenedor3';
+    }
+    .contenedor1{
+    grid-area: contenedor1;
+}
+.contenedor2{
+    grid-area: contenedor2;
+}
+.contenedor3{
+    grid-area: contenedor3;
+}
+}
